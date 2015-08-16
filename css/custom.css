@@ -1,0 +1,13 @@
+body {
+    padding-top: 50px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 16px;
+}
+
+tr:hover {
+    color: #333333;
+}
