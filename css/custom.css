@@ -11,3 +11,11 @@ p {
 tr:hover {
     color: #333333;
 }
+
+.fade {
+    opacity: 0.5;
+}
+
+.fade:hover {
+    opacity: 1;
+}
