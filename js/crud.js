@@ -96,6 +96,10 @@ $(document).ready(function () {
             mostrarErros({
                 'nota': 'Campo Obrigatório! Digite uma nota.'
             })
+		} else if (isNaN(nota)) {
+            mostrarErros({
+                'nota': 'Valor inválido! Digite um número para esse campo.'
+            })
         } else if (nota < 0 || nota > 10) {
             mostrarErros({
                 'nota': 'Valor inválido! Digite uma nota de 0 a 10.'
